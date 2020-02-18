@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5vw;
+}
+
+#container {
+    padding: 3vw;
+}
+
+.box {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
