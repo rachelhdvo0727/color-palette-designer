@@ -1,1 +1,1 @@
-# colorselecter
+# color-palette-designer
