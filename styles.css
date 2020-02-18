@@ -1,18 +1,25 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 5vw;
+  margin: 5vw;
 }
-
+input {
+  margin: 1.5vw;
+}
+#inputs {
+  display: flex;
+  flex-flow: column wrap;
+}
 #container {
-    padding: 3vw;
+  padding: 3vw;
 }
 
 .box {
-    border: 1px solid black;
-    width: 200px;
-    height: 200px;
+  border-radius: 0.8rem;
+  border: 0.2vw solid grey;
+  width: 200px;
+  height: 200px;
 }
