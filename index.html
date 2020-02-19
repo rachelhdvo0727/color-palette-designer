@@ -8,19 +8,108 @@
   </head>
 
   <body>
-   <div id="inputs">
-    <label for="color">Color</label>
-    <input type="color" name="selected" id="selected" />
-    <input type="text" name="hexinput" id="hexinput" />
-    <label for="hsl">HSL</label>
-    <input type="text" name="hslinput" id="hslinput" />
-    <label for="rgb">RGB</label>
-    <input type="text" name="rgbinput" id="rgbinput" />
-  </div>
+    <div id="inputs">
+      <label for="color">Pick A Color:</label>
+      <input type="color" name="selected" id="selected" />
+    </div>
 
-  <div id="container">
-    <div class="box"></div>
-  </div>
+    <form class="harmonies">
+      <label for="color">Harmonies:</label>
+      <input type="checkbox" name="analogous" id="ana" value="ana" />
+      <label for="analogous">Analogous</label>
+      <input type="checkbox" name="monochromatic" id="mono" value="mono" />
+      <label for="monochromatic">Monochromatic</label>
+      <input type="checkbox" name="triad" id="triad" value="triad" />
+      <label for="triad">Triad</label>
+      <input
+        type="checkbox"
+        name="complementary"
+        id="complet"
+        value="complet"
+      />
+      <label for="complementary">Complementary</label>
+      <input type="checkbox" name="compound" id="comp" value="comp" />
+      <label for="compound">Compound</label>
+      <input type="checkbox" name="shades" id="shades" value="shades" />
+      <label for="shades">Shades</label>
+    </form>
+    <div id="allboxes">
+      <div id="container">
+        <div class="box color1" data-color="b1ana"></div>
+        <div class="textbox">
+          <label for="hsl">HEX</label>
+          <input type="text" name="hexinput1" id="hexinput1" />
+        </div>
+        <div class="textbox">
+          <label for="hsl">HSL</label>
+          <input type="text" name="hslinput1" id="hslinput1" />
+        </div>
+        <div class="textbox">
+          <label for="rgb">RGB</label>
+          <input type="text" name="rgbinput1" id="rgbinput1" />
+        </div>
+      </div>
+      <div id="container">
+        <div class="box color2" data-color="b2ana"></div>
+        <div class="textbox">
+          <label for="hsl">HEX</label>
+          <input type="text" name="hexinput2" id="hexinput2" />
+        </div>
+        <div class="textbox">
+          <label for="hsl">HSL</label>
+          <input type="text" name="hslinput2" id="hslinput2" />
+        </div>
+        <div class="textbox">
+          <label for="rgb">RGB</label>
+          <input type="text" name="rgbinput2" id="rgbinput2" />
+        </div>
+      </div>
+      <div id="container">
+        <div class="box color0" data-color="b0ana"></div>
+        <div class="textbox">
+          <label for="hsl">HEX</label>
+          <input type="text" name="hexinput0" id="hexinput0" />
+        </div>
+        <div class="textbox">
+          <label for="hsl">HSL</label>
+          <input type="text" name="hslinput0" id="hslinput0" />
+        </div>
+        <div class="textbox">
+          <label for="rgb">RGB</label>
+          <input type="text" name="rgbinput0" id="rgbinput0" />
+        </div>
+      </div>
+      <div id="container">
+        <div class="box color3" data-color="b3ana"></div>
+        <div class="textbox">
+          <label for="hsl">HEX</label>
+          <input type="text" name="hexinput3" id="hexinput3" />
+        </div>
+        <div class="textbox">
+          <label for="hsl">HSL</label>
+          <input type="text" name="hslinput3" id="hslinput3" />
+        </div>
+        <div class="textbox">
+          <label for="rgb">RGB</label>
+          <input type="text" name="rgbinput3" id="rgbinput3" />
+        </div>
+      </div>
+      <div id="container">
+        <div class="box color4" data-color="b4ana"></div>
+        <div class="textbox">
+          <label for="hsl">HEX</label>
+          <input type="text" name="hexinput4" id="hexinput4" />
+        </div>
+        <div class="textbox">
+          <label for="hsl">HSL</label>
+          <input type="text" name="hslinput4" id="hslinput4" />
+        </div>
+        <div class="textbox">
+          <label for="rgb">RGB</label>
+          <input type="text" name="rgbinput4" id="rgbinput4" />
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
