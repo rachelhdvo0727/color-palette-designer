@@ -6,20 +6,43 @@
 body {
   margin: 5vw;
 }
+
+label,
 input {
-  margin: 1.5vw;
+  margin: 0.4vw 0.2vw;
 }
-#inputs {
+
+select {
+  margin: 0.5vw 0 0 1vw;
+}
+
+#inputs,
+.textbox {
+  display: flex;
+}
+
+#allboxes {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#container {
+  /* child element */
+  flex-basis: 200px;
+  flex-grow: 1;
   display: flex;
   flex-flow: column wrap;
-}
-#container {
-  padding: 3vw;
+  margin: 2vw;
 }
 
 .box {
   border-radius: 0.8rem;
-  border: 0.2vw solid grey;
-  width: 200px;
-  height: 200px;
+  border: 0.1vw solid grey;
+  width: 150px;
+  height: 150px;
+  margin: 2vw;
+  /* set h, s, l custom properties for js further calculations */
+  --hue: 0;
+  --light: 0%;
+  --sat: 0%;
 }
