@@ -46,3 +46,129 @@ select {
   --light: 0%;
   --sat: 0%;
 }
+
+/*ANALOGOUS*/
+[data-color="b0ana"] {
+  background-color: hsl(calc(var(--hue) - 30), 50%, 50%);
+}
+
+[data-color="b1ana"] {
+  background-color: hsl(calc(var(--hue) - 15), 50%, 50%);
+}
+
+[data-color="b2ana"] {
+  background-color: hsl(var(--hue), 50%, 50%);
+}
+
+[data-color="b3ana"] {
+  background-color: hsl(calc(var(--hue) + 15), 50%, 50%);
+}
+
+[data-color="b4ana"] {
+  background-color: hsl(calc(var(--hue) + 30), 50%, 50%);
+}
+
+/*MONOCROMATIC*/
+[data-color="b0mono"] {
+  background-color: hsl(var(--hue), 10%, 50%);
+}
+
+[data-color="b1mono"] {
+  background-color: hsl(var(--hue), 30%, 50%);
+}
+
+[data-color="b2mono"] {
+  background-color: hsl(var(--hue), 50%, 50%);
+}
+
+[data-color="b3mono"] {
+  background-color: hsl(var(--hue), 70%, 50%);
+}
+
+[data-color="b4mono"] {
+  background-color: hsl(var(--hue), 90%, 50%);
+}
+
+/*TRIAD*/
+[data-color="b0triad"] {
+  background-color: hsl(calc(var(--hue) + 240), 50%, 60%);
+}
+
+[data-color="b1triad"] {
+  background-color: hsl(calc(var(--hue) + 120), 50%, 50%);
+}
+
+[data-color="b2triad"] {
+  background-color: hsl(var(--hue), 50%, 50%);
+}
+
+[data-color="b3triad"] {
+  background-color: hsl(calc(var(--hue) + 60), 50%, 50%);
+}
+
+[data-color="b4triad"] {
+  background-color: hsl(calc(var(--hue) + 180), 50%, 40%);
+}
+
+/*COMPLEMENTARY*/
+[data-color="b0complet"] {
+  background-color: hsl(calc(var(--hue) + 180), 50%, 50%);
+}
+
+[data-color="b1complet"] {
+  background-color: hsl(calc(var(--hue) + 0), 50%, 50%);
+}
+
+[data-color="b2complet"] {
+  background-color: hsl(calc(var(--hue) + 180), 50%, 70%);
+}
+
+[data-color="b3complet"] {
+  background-color: hsl(calc(var(--hue) + 0), 50%, 70%);
+}
+
+[data-color="b4complet"] {
+  background-color: hsl(calc(var(--hue) + 180), 10%, 70%);
+}
+
+/*COMPOUND*/
+[data-color="b0comp"] {
+  background-color: hsl(calc(var(--hue) + 10), 50%, 50%);
+}
+
+[data-color="b1comp"] {
+  background-color: hsl(calc(var(--hue) + 0), 50%, 50%);
+}
+
+[data-color="b2comp"] {
+  background-color: hsl(calc(var(--hue) + 160), 50%, 50%);
+}
+
+[data-color="b3comp"] {
+  background-color: hsl(calc(var(--hue) + 170), 50%, 50%);
+}
+
+[data-color="b4comp"] {
+  background-color: hsl(calc(var(--hue) + 180), 50%, 50%);
+}
+
+/*SHADES*/
+[data-color="b0shades"] {
+  background-color: hsl(var(--hue), 50%, 20%);
+}
+
+[data-color="b1shades"] {
+  background-color: hsl(var(--hue), 50%, 33%);
+}
+
+[data-color="b2shades"] {
+  background-color: hsl(var(--hue), 50%, 50%);
+}
+
+[data-color="b3shades"] {
+  background-color: hsl(var(--hue), 50%, 65%);
+}
+
+[data-color="b4shades"] {
+  background-color: hsl(var(--hue), 50%, 80%);
+}
